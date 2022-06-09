@@ -11,5 +11,5 @@ export { Signup } from "./Signup";
 export { NotFound } from "./NotFound";
 export { Profile } from "./Profile";
 export { Rules } from "./Rules";
-// export { Results } from "./Results";
-// export { Quiz } from "./Quiz";
+export { Results } from "./Results";
+export { Quiz } from "./Quiz";

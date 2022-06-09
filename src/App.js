@@ -10,8 +10,8 @@ import {
   Signup,
   Rules,
   Profile,
-  // Quiz,
-  // Results,
+  Quiz,
+  Results,
 } from "./containers";
 import { Message, PrivateRoute, RestrictedRoute } from "./components";
 import "./index.css";
@@ -25,8 +25,8 @@ function App() {
         <Route element={<PrivateRoute />}>
           <Route element={<PrivateRoute />}>
             <Route path="/rules/:quizId" element={<Rules />} />
-            {/* <Route path="/quiz/:quizId" element={<Quiz />} />
-            <Route path="/results/:quizId" element={<Results />} /> */}
+            <Route path="/quiz/:quizId" element={<Quiz />} />
+            <Route path="/results/:quizId" element={<Results />} />
             <Route path="/profile" element={<Profile />} />
           </Route>
         </Route>

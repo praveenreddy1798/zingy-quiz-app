@@ -1,0 +1,145 @@
+.main {
+  height: 100%;
+  overflow-y: auto;
+  background-color: var(--primary-lighter-1);
+}
+
+.navbar {
+  border: 1px solid var(--light-grey);
+}
+
+.card {
+  width: 20rem;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.card-image-container {
+  padding: 0;
+}
+
+.card-image {
+  height: 15rem;
+  background: transparent;
+}
+
+.rules-card {
+  width: max-content;
+}
+
+.quiz-card {
+  width: 30rem;
+}
+
+.quiz-option {
+  padding: 0.75rem;
+}
+
+.outline-primary:active {
+  color: var(--primary-dark);
+  background-color: var(--white);
+}
+
+.outline-primary:hover,
+.outline-primary:focus {
+  color: var(--primary-dark);
+  background-color: var(--white);
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-btn {
+  height: 2.5rem;
+  border: none;
+  outline: none;
+}
+
+.loader-container {
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+
+.loader {
+  border: 0.5rem solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 0.5rem solid #3498db;
+  width: 3rem;
+  height: 3rem;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.password {
+  margin-left: -2rem;
+  padding: 0.5rem;
+}
+
+.nav-icon {
+  font-size: 2.5em;
+}
+
+.profile-pic {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  border: none;
+  color: white;
+}
+
+.alert {
+  top: 0.875rem;
+  left: 50%;
+  min-width: 15rem;
+  max-width: max-content;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.submit,
+.explore {
+  margin-bottom: 5.5rem;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-icon {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-icon {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-logo {
+    font-size: 85%;
+  }
+}

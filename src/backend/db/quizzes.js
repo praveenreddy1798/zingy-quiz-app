@@ -92,7 +92,7 @@ export const quizzes = [
           "Operating System",
           "Operating Software",
         ],
-        answer: "Operating Software",
+        answer: "Operating System",
       },
     ],
     categoryName: "Technology",

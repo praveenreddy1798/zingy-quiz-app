@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Zingy Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Zingy Quiz is a quiz application to test your knowledge.
 
-## Available Scripts
+## Application Links
 
-In the project directory, you can run:
+[Zingy Quiz Live](https://zingy-quiz-app.netlify.app/)
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### P0
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Home Page
+- Quizzes by Category
+- Rules Page for while attempting Quiz
+- MCQ based Quiz Question Page
+- Result Page with Answers & Score
 
-### `yarn test`
+### P1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Authentication
+  - Sign-up
+  - Login
+  - Logout
+- User Profile Page
+- Quit Quiz
+- Loading & Alerts
 
-### `yarn build`
+### Zingy Quiz Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1437" alt="Screenshot 2022-06-10 at 4 26 15 AM" src="https://user-images.githubusercontent.com/62658404/172962570-0aef64ef-f0d0-4462-9d6b-6f0ebe41c5f3.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1440" alt="Screenshot 2022-06-10 at 4 26 27 AM" src="https://user-images.githubusercontent.com/62658404/172962581-93e2d061-3131-4924-ab9b-da0c54d8748e.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1440" alt="Screenshot 2022-06-10 at 4 26 47 AM" src="https://user-images.githubusercontent.com/62658404/172962603-cec9942d-fd07-4421-84b5-29c3378fe103.png">
 
-### `yarn eject`
+<img width="1440" alt="Screenshot 2022-06-10 at 5 27 59 AM" src="https://user-images.githubusercontent.com/62658404/172964048-d40ed721-9ae0-4d6e-88db-55c4dde6f9b2.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img width="1439" alt="Screenshot 2022-06-10 at 5 28 19 AM" src="https://user-images.githubusercontent.com/62658404/172964076-58d46764-e2af-4508-a41f-4fb5d463dc2e.png">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1440" alt="Screenshot 2022-06-10 at 5 29 35 AM" src="https://user-images.githubusercontent.com/62658404/172964194-7c9e8a14-2500-4b42-ad50-1dbc507a0c36.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1436" alt="Screenshot 2022-06-10 at 5 32 55 AM" src="https://user-images.githubusercontent.com/62658404/172964458-9281cd65-c6dc-426f-923d-096f7c4b7b7e.png">

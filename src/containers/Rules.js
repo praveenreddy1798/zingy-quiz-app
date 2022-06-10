@@ -14,7 +14,7 @@ const Rules = () => {
             <div className="text-align-left">
               <h4>1. Their are 5 questions in total.</h4>
               <h4>2. Each question is of 5 marks.</h4>
-              <h4>3. Every right answer will reward you with 5 marks</h4>
+              <h4>3. Every right answer will reward you with 5 marks.</h4>
               <h4>
                 4. You can attempt each question only once, can not redirect to
                 previous question.

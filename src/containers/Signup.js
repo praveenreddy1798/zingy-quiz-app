@@ -29,7 +29,7 @@ const Signup = () => {
   return (
     <div className="page-wrapper">
       <Navbar />
-      <main className="main main-section main-section-strech flex-center pd-md">
+      <main className="main main-section main-section-strech flex-center pd-md h-100 overflow-y-auto">
         <div className="flex-center bg-white w-max-content">
           <form onSubmit={handleSubmit}>
             <div className="flex-vertical pd-xlg w-max-content">

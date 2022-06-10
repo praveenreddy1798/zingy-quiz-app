@@ -2,13 +2,16 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import {
   Home,
-  Quiz,
-  Results,
-  Rules,
   NotFound,
   Login,
   Signup,
+  NotFound,
+  Login,
+  Signup,
+  Rules,
   Profile,
+  // Quiz,
+  // Results,
 } from "./containers";
 import { Message, PrivateRoute, RestrictedRoute } from "./components";
 import "./index.css";
@@ -20,10 +23,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route element={<PrivateRoute />}>
-          <Route path="/rules/:quizId" element={<Rules />} />
-          <Route path="/quiz/:quizId" element={<Quiz />} />
-          <Route path="/results/:quizId" element={<Results />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route element={<PrivateRoute />}>
+            <Route path="/rules/:quizId" element={<Rules />} />
+            {/* <Route path="/quiz/:quizId" element={<Quiz />} />
+            <Route path="/results/:quizId" element={<Results />} /> */}
+            <Route path="/profile" element={<Profile />} />
+          </Route>
         </Route>
         <Route element={<RestrictedRoute />}>
           <Route path="/login" element={<Login />} />
